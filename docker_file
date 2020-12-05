@@ -1,0 +1,18 @@
+To create docker container
+  docker create ubuntu bash
+To commit docker images
+  docker commit [container name] [image name]
+for start container
+  docker start [container name]
+for using container on bash
+  docker exec -it [container name] bash
+for stop container 
+  docker stop container 
+del container and images
+  docker rm for container
+  docker rmi for images
+how to check all container
+  docker pa -a
+how to check all images
+  docker images
+
